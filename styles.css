@@ -2,14 +2,49 @@
     box-sizing: content-box;width: 100%;
     padding:5px;
     width:auto;
+    margin: 0;
 }
 
 body{
-    background-color: #acdbdf;
+    background-color:#acdbdf ;
     color:#69779b ;
+    font-family: 'Lato', sans-serif;
     
 }
 
+.container .Project_Sections{
+    width: 100vw;
+    height: 100vw;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-body{
+    padding-left: 20;
+}
+
 .card{
-    background-color: #9692af;
+    opacity: 0.5;
+}
+
+.Welcome_Banner{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+label { 
+    display: table-cell;
+}
+
+input { 
+    display: table-cell; 
+    
+}
+
+.Contact .card{
+    width: 100%;
 }
