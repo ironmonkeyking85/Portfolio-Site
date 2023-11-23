@@ -1,6 +1,7 @@
 *{
     box-sizing: content-box;width: 100%;
     padding:5px;
+    padding-left: 4%;
     width:auto;
     margin: 0;
 }
@@ -11,6 +12,12 @@ body{
     font-family: 'Lato', sans-serif;
     
 }
+
+.navbar{
+    padding-left: 12%;
+}
+
+
 
 .container .Project_Sections{
     width: 100vw;
@@ -32,6 +39,7 @@ body{
 .Welcome_Banner{
     font-weight: bold;
     font-size: 30px;
+    
 }
 
 
@@ -47,4 +55,21 @@ input {
 
 .Contact .card{
     width: 100%;
+}
+
+.Game_Development{
+    padding-left: 5%;
+}
+
+.Web_Development{
+    padding-left: 5%;
+}
+
+.About_Me{
+    padding-left: 7.5%;
+    padding-bottom: 5%;
+}
+
+.Contact{
+    padding-left: 16%;
 }
