@@ -9,101 +9,22 @@ body{
     
 }
 
-@media all and (max-width: 990px) {
-    .navbar-nav{
-        background-color: rgb(118, 119, 119);
-        text-align: center;
-        font-size: 1.2rem;
-    }  
-}
-
-@media all and (max-width:990px) {
-    .navbar-nav > li :hover{
-        background-color: black;
-        color: rgb(255, 254, 252);
-        font-size:2rem; 
-    }
-}
-
-.navbar-brand{
-    padding-left: 10px;
-    font-size: 1.5rem;
-}
-
-@media screen  and (max-width:990px) {
-    .navbar-brand {
-        font-size: 2rem;
-    }
-}
-
-#homebanner{
-    margin-bottom: 1rem;
-    padding: none;
-}
-
-.navbar-nav{
-    justify-content: flex-end;
-    padding-right: 50px;
-    font-size: 1.5rem;
-}
-
-
-.navbar-collapse {
-    padding-left: 0!important; 
-    padding-right: 0!important; 
-}
-
-.navbar-collapse ul {
-    width: 100%; 
-    white-space: nowrap; 
-}
-
-.navbar-collapse :hover{
-    padding-left: 0!important; 
-    padding-right: 0!important; 
-}
-
-.navbar-collapse ul :hover{
-    width: 100%; 
-    white-space: nowrap; 
-}
-
-.container{
+.flex-container{
     display: flex;
-    justify-content: center;
-}
-    
-@media screen  and (min-width:990px) {
-    #links {
-        margin-top: 2%;
-        margin-left: 20%;
-        margin-bottom: 2%;
-        padding-right: 5em;
-        
-    }
+    flex-wrap: wrap;
 }
 
-@media screen  and (max-width:765px) {
-    .card{
-        margin-bottom: 2em;
-        margin-left: 3.5em;
-    }
-} 
+#navflex{
+    background-color: grey;
+}
 
-@media screen  and (min-width:765px) and (max-width: 990px) {
-    .card{
-        margin-bottom: 2em;
-        
-    }
-} 
+.brand{
+    justify-content: flex-start;
+}
 
-@media screen  and (min-width:765px) and (max-width: 990px) {
-    .div > #three{
-        margin-bottom: 10em;
-        
-    }
-} 
-
+#navlink{
+    justify-content: flex-end;
+}
 
 
 
